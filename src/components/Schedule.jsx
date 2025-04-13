@@ -8,7 +8,9 @@ const schedule = [
 
 function Schedule() {
   return (
-    <div>hi ther eform schedule</div>
+    <div className="schedules">
+
+    </div>
   );
 }
 

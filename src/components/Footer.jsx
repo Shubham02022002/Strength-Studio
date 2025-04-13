@@ -1,8 +1,17 @@
 import React from "react";
-
+import { Typography } from "@mui/material";
+import '../../styles/Footer.css';
 function Footer() {
     return (
-       <div>hi there from footer </div>
+        <div className="footer">
+            <div className="footer-text">
+                <Typography>
+                    Copyright &copy; {new Date().getFullYear()} Strength Studio. <br />
+                    All rights reserved.
+                </Typography>
+
+            </div>
+        </div>
     );
 }
 
