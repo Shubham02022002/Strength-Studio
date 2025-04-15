@@ -111,7 +111,14 @@ function Contact() {
 
           <Box sx={{ display: 'flex', alignItems: "center", gap: 1 }}>
             <LocationPinIcon sx={{ fontSize: 24 }} />
-            <Typography variant="subtitle1">India</Typography>
+            <Typography variant="subtitle1">
+              <Button color="inherit" onClick={() => {
+                window.open(`https://www.google.com/maps/place/27%C2%B012'
+                  23.1%22N+77%C2%B056'15.6%22E/@27.2064228,77.9373189,96m/data=
+                  !3m1!1e3!4m4!3m3!8m2!3d27.20641!4d77.937679?entry=ttu&g_ep=
+                  EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D`, "_blank");
+              }}>Open in maps</Button>
+            </Typography>
           </Box>
         </Box>
 
