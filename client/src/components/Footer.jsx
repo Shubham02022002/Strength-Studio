@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer-text">
-                <Typography >
+                <Typography textAlign={'center'}>
                     Copyright &copy; {new Date().getFullYear()} Strength Studio. <br />
                     All rights reserved.
                 </Typography>
