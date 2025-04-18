@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className="hero-section">
       <div className="message">
-      <Typography variant="h4">
+        <Typography variant="h4">
           Unleash the {" "}
           <svg
             className="neon-border"
@@ -16,7 +16,9 @@ function Hero() {
             <text x="40" y="130" className="neon-stroke">NEW YOU</text>
           </svg>
         </Typography>
-        <Typography variant="h2" fontFamily={'fantasy'} letterSpacing={3}>EASE WITH OUR GYM</Typography>
+        <Typography variant="h2" style={{
+          overflowY: "hidden"
+        }} fontFamily={'fantasy'} letterSpacing={3}>EASE WITH OUR GYM</Typography>
         <Link to='/plans' style={{
           textDecoration: 'none',
           scrollBehavior: 'smooth'

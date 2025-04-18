@@ -24,7 +24,7 @@ function Programs() {
           tailored to your needs.
         </Typography>
       </Box>
-      <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", marginLeft:"100px" }}>
+      <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", marginLeft: "100px" }}>
         <Grid container spacing={4}>
           {[
             "Basic Fitness",

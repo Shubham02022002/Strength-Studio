@@ -58,7 +58,7 @@ const Plans = () => {
             height: "100%",
             gap: 4,
             justifyContent: 'center',
-            alignItems: 'stretch', // stretch to same height
+            alignItems: 'stretch', 
           }}
         >
           {plans.map((plan, index) => (
@@ -69,7 +69,7 @@ const Plans = () => {
                 width: 330,
                 mt: "20px",
                 mb: "20px",
-                height: 400, // fixed height
+                height: 400, 
                 borderRadius: 4,
                 backgroundColor: '#1e1e1e',
                 color: '#fff',
@@ -77,7 +77,6 @@ const Plans = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-between',
-                // removed transform and hover scale
                 '&:hover': {
                   boxShadow: '0 0 12px #90caf9',
                 },
